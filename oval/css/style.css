@@ -1,0 +1,8 @@
+#oval {
+	width:200px;
+	height: 100px;
+	background: red;
+	-webkit-border-radius:50% ;
+	   -moz-border-radius:50% ;
+	        border-radius:50% ;
+}
