@@ -1,0 +1,9 @@
+#parallelogram {
+	width: 150px;
+	height: 100px;
+	margin: 30px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	        transform: skew(20deg);
+	background: red;       
+}
