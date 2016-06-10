@@ -1,0 +1,21 @@
+#star-6-points {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid red;
+	  border-left: 50px solid transparent;
+	 border-right: 50px solid transparent;
+	 position: relative;
+	 
+}
+
+#star-6-points:after {
+     width: 0;
+     height: 0;
+     content: "";
+     border-top: 100px solid red;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     position: absolute;
+     top: 30px;
+     left: -50px;
+}
