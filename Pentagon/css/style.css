@@ -1,0 +1,21 @@
+#pentagon {
+	position: relative;
+	margin:50px;
+	width: 54px;
+	border-width: 50px 18px 0;
+	border-style: solid;
+	border-color: red transparent;
+}
+
+#pentagon:before {
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: "";
+	top: -80px;
+	left: -18px;
+
+	border-bottom: 30px solid red;
+	border-right: 45px solid transparent;
+	border-left: 45px solid transparent;
+}
