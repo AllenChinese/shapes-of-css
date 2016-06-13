@@ -1,0 +1,10 @@
+#pac-man {
+	width: 0;
+	height: 0;
+	border-top: 60px solid red;
+	border-left: 60px solid red;
+	border-bottom: 60px solid red;
+	border-right: 60px solid transparent;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
