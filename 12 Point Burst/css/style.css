@@ -1,0 +1,35 @@
+#point-burst-12  {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin: 30px;
+	background: red;
+	text-align: center;
+}
+
+#point-burst-12:before,
+#point-burst-12:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	background: red;
+}
+
+#point-burst-12:before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+#point-burst-12:after {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
