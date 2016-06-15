@@ -1,0 +1,31 @@
+#badge-ribbon {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: red;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#badge-ribbon:before,
+#badge-ribbon:after{
+    content: "";
+    position: absolute;
+    border-bottom: 70px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    top: 70px;
+    left: -10px;
+    -webkit-transform: rotate(-140deg);
+    -moz-transform: rotate(-140deg);
+    transform: rotate(-140deg);
+}
+
+#badge-ribbon:after {
+	left: auto;
+	right: -10px;
+	-webkit-transform: rotate(140deg);
+	-moz-transform: rotate(140deg);
+	transform: rotate(140deg);
+}
