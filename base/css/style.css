@@ -1,0 +1,22 @@
+#base {
+	position: relative;
+	width: 100px;
+	height: 55px;
+	display: inline-block;
+	margin-left: 20px;
+    margin-top: 55px;
+    background: red;
+
+}
+
+#base:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 35px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    top:-35px; 
+    left: 0;
+}
